@@ -41,7 +41,7 @@ export default (params: { mainWindow: BrowserWindow }) => {
         token = randomBytes(256 / 8).toString('base64url');
         debug(
           'Starting local server at',
-          `http://localhost:${port}/token/${token}`,
+          `http://127.0.0.1:${port}/token/${token}`,
         );
         await server(userDataPath(), port, token);
         localServerStarted = true;

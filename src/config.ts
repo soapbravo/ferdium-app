@@ -9,9 +9,9 @@ export const DEFAULT_ACCENT_COLOR = '#7367F0';
 
 export const CHECK_INTERVAL = ms('1h'); // How often should we perform checks
 
-export const LOCAL_HOSTNAME = 'localhost';
+export const LOCAL_HOSTNAME = '127.0.0.1';
 export const LOCAL_PORT = 46_569;
-export const LOCAL_API = 'http://localhost:3000';
+export const LOCAL_API = 'http://127.0.0.1:3000';
 export const DEV_FRANZ_API = 'https://dev.franzinfra.com';
 
 export const LIVE_FERDIUM_API = 'https://api.ferdium.org';
@@ -20,17 +20,17 @@ export const LIVE_FRANZ_API = 'https://api.franzinfra.com';
 // URL used to submit debugger information, see https://github.com/ferdium/debugger
 export const DEBUG_API = 'https://debug.ferdium.org';
 
-export const LOCAL_WS_API = 'ws://localhost:3000';
+export const LOCAL_WS_API = 'ws://127.0.0.1:3000';
 export const DEV_WS_API = 'wss://dev.franzinfra.com';
 export const LIVE_WS_API = 'wss://api.franzinfra.com';
 
-export const LOCAL_API_WEBSITE = 'http://localhost:3333';
+export const LOCAL_API_WEBSITE = 'http://127.0.0.1:3333';
 export const DEV_API_FRANZ_WEBSITE = 'https://meetfranz.com';
 export const LIVE_API_FERDIUM_WEBSITE = 'https://ferdium.org';
 export const LIVE_API_FERDIUM_LIBRETRANSLATE =
   'https://translator.ferdium.org/translate';
 
-export const LOCAL_TODOS_FRONTEND_URL = 'http://localhost:4000';
+export const LOCAL_TODOS_FRONTEND_URL = 'http://127.0.0.1:4000';
 export const PRODUCTION_TODOS_FRONTEND_URL = 'https://app.franztodos.com';
 
 export const CDN_URL = 'https://cdn.franzinfra.com';
