@@ -1,6 +1,8 @@
 import { LOCAL_SERVER } from '../config';
 
 export default function serverlessLogin(actions) {
+  alert("Login using local server");
+
   // Use local server for user
   actions.settings.update({
     type: 'app',
