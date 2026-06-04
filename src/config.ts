@@ -609,7 +609,7 @@ export const DEFAULT_APP_SETTINGS = {
   hideDownloadButton: false,
   alwaysShowWorkspaces: false,
   hideAllServicesWorkspace: false,
-  liftSingleInstanceLock: false,
+  liftSingleInstanceLock: true,
   enableLongPressServiceHint: false,
   isTodosFeatureEnabled: true,
   customTodoServer: '',
